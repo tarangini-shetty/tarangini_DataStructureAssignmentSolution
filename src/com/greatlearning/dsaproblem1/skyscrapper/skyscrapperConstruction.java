@@ -16,7 +16,7 @@ public class skyscrapperConstruction {
 		
 		//traverse through the queue
 		while (itr.hasNext())
-        {
+		{
 			int element = itr.next();
 			// if element in queue is equal to floors remaining, 
 			// then print/remove the elements from stack until the difference in each element in stack is 1
