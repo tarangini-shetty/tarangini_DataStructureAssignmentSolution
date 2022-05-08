@@ -17,8 +17,7 @@ class binarySearchTree
 	static Node prevNode = null;
 	static Node headNode = null;
 
-	static void rightSkewConversion(Node root,
-								int order)
+	static void rightSkewConversion(Node root, int order)
 	{
 	
 		if(root == null)
