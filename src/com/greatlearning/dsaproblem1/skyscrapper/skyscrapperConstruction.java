@@ -5,7 +5,6 @@ import java.util.Queue;
 import java.util.Stack;
 
 public class skyscrapperConstruction {
-	
 	public void orderOfConstruction(int noOfFloors, Queue<Integer> floorSizeQueue)
 	{
 		
@@ -18,15 +17,16 @@ public class skyscrapperConstruction {
 		//traverse through the queue
 		while (itr.hasNext())
         {
-			
 			int element = itr.next();
-			// if element in queue is equal to floors remaining, then print/remove the elements from stack until the difference in each element in stack is 1
+			// if element in queue is equal to floors remaining, 
+			// then print/remove the elements from stack until the difference in each element in stack is 1
             if ( element == noOfFloorsremaining)
             {
             	stack.add(element);
             	int elementPrinted = 0;
             	System.out.println("\nDay:" + day);
-            	while (!stack.empty() && (elementPrinted == 0 || elementPrinted - stack.peek() == 1)) {
+            	while (!stack.empty() && (elementPrinted == 0 || elementPrinted - stack.peek() == 1)) 
+            	{
             		elementPrinted = stack.pop();
             		System.out.print(elementPrinted + " ");
             		noOfFloorsremaining = noOfFloorsremaining - 1;
@@ -41,10 +41,7 @@ public class skyscrapperConstruction {
             	System.out.println("\nDay:" + day);
             }
             // keep incrementing the day
-            day  = day + 1;
-            
+            day  = day + 1;   
         }
 	}
-	
-
 }
