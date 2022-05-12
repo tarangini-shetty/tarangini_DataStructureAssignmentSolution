@@ -1,7 +1,7 @@
 # tarangini_DataStructureAssignmentSolution
 
 # Problem1
-Run src/com/greatlearning/dsaproblem1/driver/driver.java\
+Run src/com/greatlearning/dsaproblem1/driver/driver.java
 
 # First Run:
 enter the total no of floors in the building\
@@ -98,7 +98,7 @@ Day:10\
 ----------------------------------------------------------------------------------------------
 
 # Problem2
-Run src/com/greatlearning/dsaproblem2/bst/binarySearchTree.java\
+Run src/com/greatlearning/dsaproblem2/bst/binarySearchTree.java
 
 # run output
 10 30 50 55 60 
